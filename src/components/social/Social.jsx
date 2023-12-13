@@ -31,7 +31,7 @@ const Social = () => {
             id: 4,
             socialTitle: "Resume",
             socialIcon: <IoMdDocument size={30} />,
-            href: "/resume.pdf",
+            href: "/Sufyan_Ahmed_Resume.pdf",
             style: "rounded-br-md",
             download: true  //this will allow us to download the resume
         }
