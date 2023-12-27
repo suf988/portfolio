@@ -2,6 +2,8 @@ import passwordGenerator from '../../assets/portfolio/passwordGenerator.png'
 import registrationForm from '../../assets/portfolio/registrationForm.png'
 import toDoList from '../../assets/portfolio/toDoList.png'
 import weatherApp from '../../assets/portfolio/weatherApp.png'
+// import weatherApp from '../../assets/portfolio/weatherApp.png'
+import searchAndSort from '../../assets/portfolio/searchAndSort.jpg'
 
 const Portfolio = () => {
 
@@ -28,6 +30,12 @@ const Portfolio = () => {
             id: 4,
             src: weatherApp,
             webLink: "https://weather-by-s.netlify.app/"
+        },
+
+        {
+            id: 5,
+            src: searchAndSort,
+            webLink: "https://search-n-sort.netlify.app/"
         }
     ]
 
@@ -53,7 +61,7 @@ const Portfolio = () => {
 
                 </div>
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
                         portfolio.map(({ id, src, webLink }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
