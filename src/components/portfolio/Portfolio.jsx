@@ -2,8 +2,8 @@ import passwordGenerator from '../../assets/portfolio/passwordGenerator.png'
 import registrationForm from '../../assets/portfolio/registrationForm.png'
 import toDoList from '../../assets/portfolio/toDoList.png'
 import weatherApp from '../../assets/portfolio/weatherApp.png'
-// import weatherApp from '../../assets/portfolio/weatherApp.png'
-import searchAndSort from '../../assets/portfolio/searchAndSort.jpg'
+import searchAndSort from '../../assets/portfolio/searchAndSort.png'
+import shoeStore from '../../assets/portfolio/shoeStore.png'
 
 const Portfolio = () => {
 
@@ -36,6 +36,12 @@ const Portfolio = () => {
             id: 5,
             src: searchAndSort,
             webLink: "https://search-n-sort.netlify.app/"
+        },
+
+        {
+            id: 6,
+            src: shoeStore,
+            webLink: "https://shoe-store-by-s.netlify.app/"
         }
     ]
 
