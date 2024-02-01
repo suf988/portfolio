@@ -60,7 +60,7 @@ const Skills = () => {
         {
             id: 8,
             src: express,
-            title: "Express J",
+            title: "Express JS",
             style: "shadow-zinc-600"
         }
     ]
