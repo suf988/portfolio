@@ -4,6 +4,7 @@ import toDoList from '../../assets/portfolio/toDoList.png'
 import weatherApp from '../../assets/portfolio/weatherApp.png'
 import searchAndSort from '../../assets/portfolio/searchAndSort.png'
 import shoeStore from '../../assets/portfolio/shoeStore.png'
+import mernApp from '../../assets/portfolio/mernApp.png'
 
 const Portfolio = () => {
 
@@ -42,6 +43,12 @@ const Portfolio = () => {
             id: 6,
             src: shoeStore,
             webLink: "https://shoe-store-by-s.netlify.app/"
+        },
+
+        {
+            id: 7,
+            src: mernApp,
+            webLink: "https://mernbysufyan.vercel.app/"
         }
     ]
 
@@ -67,7 +74,7 @@ const Portfolio = () => {
 
                 </div>
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0'>
                     {
                         portfolio.map(({ id, src, webLink }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
