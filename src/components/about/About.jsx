@@ -9,11 +9,11 @@ const About = () => {
                 </div>
 
                 <p className="text-xl mt-20">
-                Greetings! I'm a software engineer proficient in HTML, CSS, JavaScript, and React, with experience in using CSS frameworks like Tailwind CSS. My expertise lies in creating clean and user-friendly web solutions.  I stay up-to-date with the latest tech trends to tackle new challenges. Let's collaborate to transform creative ideas into engaging digital experiences.
+                Greetings! I'm a software engineer proficient in HTML, CSS, JavaScript, and skilled  in client-side development using libraries like React.js. I am also familiar with server-side development using Node.js, Express.js, and MongoDB for efficient data management. My expertise lies in creating clean and user-friendly web solutions.  I stay up-to-date with the latest tech trends to tackle new challenges. Let's collaborate to transform creative ideas into engaging digital experiences.
                 </p>
                 <br />
                 <p className="text-xl">
-                In my journey as a software engineer, I've focused on honing my skills in HTML, CSS, JavaScript, and React, along with familiarity with CSS frameworks like Tailwind CSS. My passion lies in crafting clean and effective web solutions that prioritize user experience and responsive design. I'm committed to staying current with evolving technologies to address new challenges. I'm excited about the prospect of collaborating to bring innovative ideas to life and create meaningful digital experiences.
+                In my journey as a software engineer, I've focused on honing my skills in HTML, CSS, JavaScript, and React, along with familiarity with CSS frameworks like Bootstrap and Tailwind CSS. My passion lies in crafting clean and effective web solutions that prioritize user experience and responsive design. Additionally, my backend development expertise includes working with Node.js, Express.js, and MongoDB. I'm committed to staying current with evolving technologies to address new challenges. I'm excited about the prospect of collaborating to bring innovative ideas to life and create meaningful digital experiences.
                 </p>
             </div>
         </div>
