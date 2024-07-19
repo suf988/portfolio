@@ -43,7 +43,7 @@ const Skills = () => {
       id: 5,
       src: bootstrap,
       title: "Bootstrap",
-      style: "shadow-zinc-600",
+      style: "shadow-violet-500",
     },
 
     {
@@ -71,7 +71,7 @@ const Skills = () => {
       id: 9,
       src: mongodb,
       title: "Mongo DB",
-      style: "shadow-zinc-600",
+      style: "shadow-emerald-500",
     },
 
     {
