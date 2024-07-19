@@ -6,6 +6,8 @@ import github from '../../assets/github.png'
 import tailwind from '../../assets/tailwind.png'
 import node from '../../assets/node.png'
 import express from '../../assets/express.png'
+import mongodb from '../../assets/mongodb.png'
+import bootstrap from '../../assets/bootstrap.png'
 
 const Skills = () => {
 
@@ -62,6 +64,18 @@ const Skills = () => {
             src: express,
             title: "Express JS",
             style: "shadow-zinc-600"
+        },
+        {
+            id: 9,
+            src: bootstrap,
+            title: "Bootstrap",
+            style: "shadow-zinc-600"
+        },
+        {
+            id: 9,
+            src: mongodb,
+            title: "Mongo DB",
+            style: "shadow-zinc-600"
         }
     ]
 
@@ -80,7 +94,7 @@ const Skills = () => {
 
                 </div>
 
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0'>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0'>
 
                     {skills.map(({ id, src, title, style }) => (
 
